@@ -23,6 +23,7 @@ describe('HTTP server', () => {
     expect(response.statusCode).toEqual(404);
   });
 
+  // tambahan untuk bisa merge pull request
   describe('when GET /', () => {
     it('should return 200 and hello world', async () => {
       // Arrange
