@@ -16,7 +16,7 @@ const createServer = async (container) => {
       options: { container },
     },
   ]);
-
+  // Percobaan ke 8
   server.route({
     method: 'GET',
     path: '/',
